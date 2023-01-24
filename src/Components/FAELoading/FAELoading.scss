@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+.fae--loading-icon-small {
+  width: 100%;
+  @include flex(center, center);
+}
+
+.fae--loader-image-small {
+  width: 60px;
+  height: 60px;
+}
+
+.fae--loading-icon {
+  width: 100%;
+  @include flex(center, center);
+}
+
+.fae--loader-image {
+  width: 200px;
+  height: 200px;
+  @include flex(center, center);
+}
+
+.fae--loader-main-container {
+  @include flex(center, center);
+}

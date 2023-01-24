@@ -1,0 +1,73 @@
+
+.save-btn{
+    padding: 10px 10px 10px 30px;
+    text-align: end;
+} 
+
+.v_userSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assign_voucher .MuiTextField-root .MuiInputBase-root {
+    position: relative !important;
+    margin: auto !important;
+    box-shadow: 0px 2px 7px rgba(102, 84, 84, 0.15) !important;
+    border: 1px solid #d14056  !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    background-color: #ecdee5 !important;
+    height: 42px;
+   }
+
+.assign_voucher .MuiFormControl-root {
+    width: 300px;
+   }
+.assign_voucher_btnDiv {
+    margin: 15px 0px 15px 0px;
+    }
+.assign_voucher_btnDiv .fae-button {
+    width: 300px !important;
+   }
+
+   .userDetail_sec {
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+   }
+
+   .line {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    width: 1000px;
+    border-top: 1px solid grey;
+    margin: 30px 0px 0px 0px;
+}
+
+.user_info {
+    width: 30%;
+    background: transparent;
+    border: 1px solid #d14056;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 15px 5px 15px;
+}
+.user_info svg {
+    margin: 0px 5px -5px 5px;;
+}
+.userDetail_sec img {
+    border-radius: 10px;
+}
+
+.main_color {
+    color: #d14056;
+}
+
+.assign_voucher  img {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+ 
+
+ 

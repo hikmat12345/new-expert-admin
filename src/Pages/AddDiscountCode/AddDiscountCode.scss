@@ -1,0 +1,96 @@
+@import "../../App.scss";
+@import "../../reusable-css.scss";
+ 
+
+.create-or-edit-voucher-container {
+  @include flex(none, center);
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+}
+
+.create-or-edit-voucher-wrapper {
+  width: 60%;
+  @include flex(center, center);
+  flex-direction: column;
+  gap: $default-section-gap;
+}
+
+ .addDiscount_container {
+  background: white;
+  padding: 20px;
+  width: 85%;
+  margin: 20px 0px 0px 30px;
+  border-radius: 10px;
+ }
+
+ .addDiscount_container input {
+  background: $bg_color;
+  padding: 10px;
+  
+ }
+
+ .addDiscount_title {
+  background: white;
+  text-align: left;
+  padding: 7px 60px;
+  margin: 0px -12px 10px -30px;
+  height: 46px;
+ }
+
+ .addDiscount_row {
+  display: flex;
+  margin:  10px 0px 10px 0px;
+ }
+
+ .dropdown_outer .select_style {
+  width: 95%;
+  height: 37px;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  /* margin: 8px 0px 5px 0px; */
+  background: $bg_color;
+  
+ }
+
+ .dropdown_outer {
+  width: 100%;
+  margin: 6px 0px 0px 0px
+ }
+
+ .addDiscount_row .DatePicker__input {
+  height: 40px;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  text-align: center !important;
+ }
+ .phone_inputWidth {
+  width: 100% !important;
+ }
+
+ .addDiscount_row .MuiInputBase-root {
+  // width: 560px;
+    background: $bg_color;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+
+ 
+ }
+
+ .phone_inputWidth .MuiFormControl-root {
+  width: -webkit-fill-available;
+  margin: 3px 23px 0px 0px;
+ }
+ .btn_gray_bg {
+    background: #f0f4f5 !important;
+    color: black;
+    padding: 7px 30px;
+    margin: 0px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    border: 1px solid lightgrey;
+  }
+
+ .btn_org_bg {
+  padding: 7px 30px;
+  margin: 0px 5px;
+}

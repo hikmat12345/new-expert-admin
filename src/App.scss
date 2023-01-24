@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+.dpr {
+  padding-right: 1%;
+}
+
+.dpl {
+  padding-left: 1%;
+}
+
+.dpb {
+  padding-bottom: 30px;
+}
+
+.dpt {
+  padding-top: 30px;
+}
+
+.dp {
+  padding: 1%;
+}
+
+@mixin flex($propert1, $property2) {
+  display: flex;
+  justify-content: $propert1;
+  align-items: $property2;
+}
+
+$default-section-gap: 20px;
+
+.fae--admin-layout {
+  display: flex;
+}
+
+.field_bg {
+  background-color: #d14056;
+}
+.industries-wrapper .fae--auto-complete-container {
+  margin: 0px 0px 0px 25px;
+ 
+}
+
+.services-wrapper .fae--auto-complete-container {
+  margin: 0px 0px 0px 25px;
+ 
+}
+
+.admin-users-wrapper .fae--auto-complete-container {
+  margin: 0px 0px 0px 25px;
+ 
+}
+
+.industries-wrapper .MuiAutocomplete-input {
+  height: 5px !important;
+}
+
+.services-wrapper  .MuiAutocomplete-input {
+  height: 5px !important;
+}
+
+.admin-users-wrapper .MuiAutocomplete-input {
+  height: 5px !important;
+}
+
+
+
+.title_alignment_with_table {
+  padding: 0px 0px 0px 30px;
+}
+
+.container_center {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin: 5px 15px 5px 15px;
+  background: white;
+  border-radius: 10px;
+}
+.tabular_container {
+  border-radius: 10px !important;
+}

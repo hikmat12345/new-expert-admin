@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.account-balance-setting-container {
+  @include flex(center, none);
+}
+
+.account-balance-setting-wrapper {
+  width: 60%;
+}
+
+.account-balance-setting-form {
+  @include flex(none, center);
+  flex-direction: column;
+  gap: 30px;
+}

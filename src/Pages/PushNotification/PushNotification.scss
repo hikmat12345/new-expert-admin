@@ -1,0 +1,63 @@
+.push-notification-inner-wrapper {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0px -1px 5px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+}
+
+.push-notification-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 16px;
+}
+
+.push-notification-body {
+  display: flex;
+  justify-content: center;
+}
+
+.push-notification-form {
+  width: 60%;
+}
+
+.push-botification-checkbox-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.push-botification-checkbox-field .MuiFormControlLabel-label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.push-notification-audience .MuiFormControlLabel-root {
+  margin-right: 0;
+}
+
+.push-notification-audience-total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #646464;
+  border-bottom: 1px solid #646464;
+  padding: 8px 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.push-notification-file-upload {
+  background-color: rgb(92, 92, 165);
+  color: #ffffff;
+  padding: 8px 32px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.push-notification-button {
+  display: flex;
+  justify-content: flex-end;
+}

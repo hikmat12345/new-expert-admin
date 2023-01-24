@@ -1,0 +1,41 @@
+.auto-complete-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.auto-complete-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #d14056 !important;
+  margin-top: 10px;
+}
+
+.auto-complete-wrapper
+  .MuiAutocomplete-inputRoot[class*="MuiInput-root"]
+  .MuiAutocomplete-input:first-child {
+  padding: 0;
+  padding: 18.5px 14px;
+}
+.voucher-listing-filters .MuiFormControl-root {
+  background-color: #d14056 !important;
+  margin: 0px 0px 0px 20px !important;
+  border-radius: 5px;
+}
+
+.MuiFormControl-root {
+  // background-color: #d14056 !important;
+  border-radius: 5px;
+}
+.voucher-listing-filters .MuiAutocomplete-endAdornment svg {
+  color: white !important;
+   }
+
+ 
+ .voucher-listing-filters #country-select-demo {
+  color: white !important;
+ }

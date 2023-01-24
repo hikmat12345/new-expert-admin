@@ -1,0 +1,52 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  width: 50%;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 16px;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-field {
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.login-forgot-password {
+  text-align: right;
+  width: 100%;
+  text-decoration: none;
+  color: #dc0000;
+}
+
+.login-btn {
+  margin-top: 48px;
+}
+
+.login-error-message {
+  color: #dc0000;
+  text-align: left;
+  margin-bottom: 8px;
+  height: 20px;
+  width: 100%;
+}
+
+.login-form .MuiInputBase-root {
+  background-color: white;
+}

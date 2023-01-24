@@ -1,0 +1,34 @@
+.fae--text-field-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  width: 95%;
+}
+
+.text-field-input {
+  width: 100%;
+}
+
+.text-field-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.text-field-wrapper .MuiInputBase-input {
+  padding: 0;
+  padding: 18.5px 14px;
+}

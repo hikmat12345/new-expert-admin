@@ -1,0 +1,92 @@
+.create-new-audience-wrapper {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0px -1px 5px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+}
+
+.create-new-audience-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 16px;
+}
+
+.create-new-audience-header-btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.create-new-audience-header-btn-icon {
+  color: #dc0000;
+}
+
+// .create-new-audience-body {
+//   height: 300px;
+// }
+
+.create-new-audience-body {
+  display: flex;
+  justify-content: center;
+}
+
+.create-new-audience-form {
+  width: 90%;
+}
+
+.create-new-audience-two-column-layout {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.create-new-audience-two-column-layout > div {
+  width: 100%;
+}
+
+.create-new-audience-input-field {
+  width: 100%;
+}
+
+.create-new-audience-two-column-layout .fae--auto-complete-container {
+  width: 100%;
+}
+
+.create-new-audience-form-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.audience-created-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.audience-created {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0px -1px 5px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+  padding: 8px;
+  // display: inline-block;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.audience-created-edit-icon-container {
+  cursor: pointer;
+}
+
+.audience-created-edit-icon {
+  color: blue;
+}
+
+.audience-created-delete-icon {
+  color: red;
+}

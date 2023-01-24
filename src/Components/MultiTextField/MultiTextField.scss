@@ -1,0 +1,51 @@
+.multi-text-field-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.multi-text-field-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.multi-text-field-input {
+  width: 70%;
+}
+
+.multi-text-field-wrapper .MuiInputBase-input {
+  padding: 0;
+  padding: 18.5px 14px;
+}
+
+.multi-text-field-select {
+  width: 30%;
+}
+
+.multi-text-field-select .MuiFormLabel-root {
+  line-height: 0.6;
+  padding-left: 14px;
+}
+
+.multi-text-field-select label + .MuiInput-formControl {
+  margin: 0;
+}
+
+.multi-text-field-seperator {
+  width: 1px;
+  height: 56px;
+  background-color: #c9c9c9;
+  margin: 0 5px;
+}
+
+// Autocomplete
+
+.multi-text-field-wrapper .MuiAutocomplete-root {
+  width: 30%;
+}

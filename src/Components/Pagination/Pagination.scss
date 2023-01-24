@@ -1,0 +1,40 @@
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.pagination-wrapper {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+.pagination-ui {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.page-number-btn {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 8px;
+  height: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  cursor: pointer;
+}
+
+.page-next-prev-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.page-number-btn[aria-current="true"] {
+  background-color: #dc0000;
+  color: #ffffff;
+}

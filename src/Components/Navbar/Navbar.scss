@@ -1,0 +1,97 @@
+.MuiAppBar-colorPrimary {
+  // background: linear-gradient(to right, rgb(131, 0, 45), rgb(255, 0, 36));
+  background:  #d14056 !important;
+
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+
+.MuiIconButton-label {
+  gap: 10px;
+}
+
+.fae--navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fae--navbar-right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.fae--navbar-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.fae--navbar-profile-popover {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 8px;
+  width: 150px;
+}
+
+.fae--navbar-profile-popover-link {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.fae--navbar-profile-popover-link:hover {
+  background-color: #f3f1f1;
+}
+
+.MuiAvatar-root {
+  width: 32px !important;
+  height:  32px !important;
+}
+
+.log_header {
+  margin: 0px 0px 18px 0px;
+}
+
+.top_country_dropdown .MuiFormControl-root {
+  height: 48px !important;
+}
+
+.top_country_dropdown .MuiFormControl-root input{
+  padding: 0px 0px 0px 8px !important;
+}
+
+//**************** hide remove icon from header country dropdown ********************
+.top_country_dropdown .MuiAutocomplete-clearIndicator {
+  visibility: hidden !important;
+}
+
+
+.top_country_dropdown .PrivateNotchedOutline-root-2 {
+  border: 0px !important;
+}
+
+
+
+.top_country_dropdown .country_header {
+  border-right: 1px solid white !important;
+    width: 200px !important;
+}
+
+.top_country_dropdown .MuiAutocomplete-inputRoot {
+  color: white !important;
+}
+.top_country_dropdown .MuiAutocomplete-endAdornment {
+  color: white !important;
+  right: 10px !important
+}
+.top_country_dropdown .auto-complete-wrapper {
+  border: none !important;
+  margin: 0px 0px 5px 0px ;
+  height: 35px !important;
+}
+.top_country_dropdown .MuiIconButton-root {
+  color: white !important;
+}

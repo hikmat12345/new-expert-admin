@@ -1,0 +1,7 @@
+@import "../../App.scss";
+
+.not-found-main-container {
+  @include flex(center, center);
+  // margin-bottom: 30px;
+  margin: 120px;
+}

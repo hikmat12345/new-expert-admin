@@ -1,0 +1,27 @@
+@import "../../reusable-css.scss";
+
+// .role-listing{margin: 50px;}
+.addUser_role .role_func {
+  margin: 0px -12px 10px -30px;
+
+}
+
+.user_card {
+  display: flex;
+  // width: 25%;
+  height: 80%;
+  margin: 0 20px 20px 0;
+  padding: 20px 54px 20px 20px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  border-radius: 5px;
+}
+.user_card img {
+  // padding: 20px;
+  margin: 5px;
+}
+
+.card_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}

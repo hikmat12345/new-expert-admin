@@ -1,0 +1,93 @@
+@import "../../App.scss";
+
+.create-or-edit-voucher-container {
+  @include flex(none, center);
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+}
+
+.create-or-edit-voucher-wrapper {
+  width: 60%;
+  @include flex(center, center);
+  flex-direction: column;
+  gap: $default-section-gap;
+}
+
+.add-voucher-btn-wrapper {
+  text-align: right;
+  padding: 20px 0;
+}
+
+.create-or-edit-voucher-wrapper .MuiTextField-root .MuiInputBase-root {
+  position: relative !important;
+  margin: auto !important;
+  box-shadow: 0px 2px 7px rgba(102, 84, 84, 0.15) !important;
+  border: 1px solid #d14056  !important;
+  border-radius: 10px !important;
+  width: 100% !important;
+  background-color: #ecdee5 !important;
+ }
+
+.create-or-edit-voucher-wrapper .MuiOutlinedInput-input {
+  color: #c297a9 !important;
+}
+
+.DatePicker__input {
+  height: 40px;
+  border: 1px solid #d14056;
+  border-radius: 10px;
+  text-align: center !important;
+   
+ }
+
+ .DatePicker {
+   z-index: 0 !important;
+
+ }
+
+ .create-or-edit-voucher-wrapper .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+  height: 42px;
+ }
+  
+ .create-or-edit-voucher-wrapper #country-select-demo {
+  color: #c297a9 !important;
+  padding: 1.5px 5px !important;
+ }
+
+ .dropdown-container {
+  // width: 670px !important;
+  height: 43px;
+  border-radius: 10px !important;
+  border: 1px solid #d14056!important;
+ }
+ .dropdown-content {
+  z-index: 1000;
+ }
+
+ .multi-select {
+  // margin: 0px 30px 0px 0px !important;
+  // width: 429px !important;
+ }
+ .dropdown-heading {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .disabled_field {
+  display: block !important;
+ }
+
+ .pageName_div {
+  display: flex;
+  justify-content: center;
+  // margin: 20px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+ }
+
+ .service_dropdown {
+  margin: -28px 22px 29px 0px !important;
+    width: 95% !important;
+ }
+ 
+

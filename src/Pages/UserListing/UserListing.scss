@@ -1,0 +1,68 @@
+@import "../../reusable-css.scss";
+
+// .role-listing{margin: 50px;}
+.add-role{text-align: right;}
+.add-role button{background-color: #0f3279;}
+.roles-heading{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+.role_func {
+    background: white;
+    text-align: right;
+    padding: 7px 20px;
+    margin: -48px -12px 10px -30px;
+    height: 65px;
+}
+
+.modal-container{
+ margin-top: 100px;
+ margin-left: 30%;
+ height: 300px;
+ width: 500px;
+ background-color:rgb(255, 255, 255)}
+.modal-box{background-color: white;padding: 2% 2% 10% 5%;}
+.modal-text{
+ color: gray;
+ text-align: center;
+ font-size: 20px;
+ margin-top: 10px;
+}
+.modal-btn{text-align: right;gap: 10px;padding: 2% 5% 1% 0%;}
+.modal-btn-1{margin-right: 2%;}
+
+.icon_bg {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px 0 0;
+    padding: 8px 7px 7px 8px;
+    border-radius: 5px;
+    background-color: #f0f4f5;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+
+    
+  }
+
+  .role_topSec input {
+    margin: 20px 10px;
+    width: 22%;
+    height: 33px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 35px 0px 15px;
+
+  }
+
+  .role_topSec svg {
+    position: absolute;
+    margin: 27px 0px 0px -37px;
+    color: $them_color;
+    cursor: pointer;
+}
+  
